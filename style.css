@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+h1{
+    font-size: 54px;
+    color: #250055;
+}
+
+h2{
+    font-size: 24px;
+    color: #666666;
+}
+
+p{
+    font-size: 20px;
+    color: #666666;
+}
+
+.header{
+    width: 100%; /*largura*/
+    height: 140px; /*altura*/
+    background-color: #250055; /*cor de fundo*/
+
+    display: flex;
+    justify-content: space-between; /*alinhamento no eixo x*/
+    align-items: center; /*alinhamento no eixo y*/
+}
+
+.header img{
+    margin-left: 113px; /*margem a esquerda*/
+    width: 100px;
+    border-radius: 50%;
+}
+
+.menu{
+    margin-right: 113px; /*margem a direita*/
+}
+
+.menu a{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+/*ao passar o mouse nos links do menu*/
+.menu a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.content{
+    margin: 80px 113px;
+}
+
+.footer{
+    width: 100%; /*largura*/
+    height: 60px; /*altura*/
+    background-color: #250055; /*cor de fundo*/   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
